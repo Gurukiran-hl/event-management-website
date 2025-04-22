@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore and manage all types of personal events like marriages, baby showers, naming ceremonies, and more.">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #6c5ce7;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 3rem auto;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .card a {
+      text-decoration: none;
+      color: #6c5ce7;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .card a:hover {
+      color: #341f97;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f8f8f8;
+      margin-top: 3rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 90%;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Event Management</h1>
+    <p>Choose your event to explore more</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img style="width: 33%;" src="marriage.jpg"alt="Marriage">
+      <a href="first.html">Marriage</a>
+    </div>
+    <div class="card">
+      <img style="width: 33%;" src="baby shower.jpg"alt="Baby Shower">
+      <a href="second.html">Baby Shower</a>
+    </div>
+    <div class="card">
+      <img style="width: 33%;" src="naming ceremony.jpg"alt="Naming Ceremony">
+      <a href="third.html">Naming Ceremony</a>
+    </div>
+    <div class="card">
+      <img style="width: 33%;" src="engagement.jpg"alt="Engagement">
+      <a href="five.html">Engagement</a>
+    </div>
+    <div class="card">
+      <img style="width: 33%;" src="bachelor.jpg"alt="Bachelor Party">
+      <a href="six.html">Bachelor Party</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Eventify Services. All rights reserved.
+  </footer>
+
+</body>
+</html>
